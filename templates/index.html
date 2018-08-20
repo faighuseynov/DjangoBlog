@@ -1,13 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-{% load static %}
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="../article/static/style.css">
+{% extends "layout.html" %}
 
-    <title>Django blog application</title>
-</head>
-<body>
-<h3>Hi there...</h3>
-</body>
-</html>
+{% block body %}
+
+<div class="jumbotron text-center">
+<h3>Home Page</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+{% endblock body %}
