@@ -4,7 +4,7 @@ from django import forms
 class RegisterForm(forms.Form):
     username = forms.CharField(max_length=50, label="İstifadəçi adı")
     password = forms.CharField(max_length=50, label="Şifrə", widget=forms.PasswordInput)
-    confirm =  forms.CharField(max_length=50, label="Şifrə təkrar")
+    confirm =  forms.CharField(max_length=50, label="Şifrə təkrar", widget = forms.PasswordInput)
 
     def clean(self):
         username = self.cleaned_data.get("username")

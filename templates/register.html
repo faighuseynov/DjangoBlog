@@ -5,4 +5,12 @@
 
     <h3>Qeydiyyatdan keç</h3>
 
+    <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+        <br>
+    <button type="submit" class="btn btn-danger">Qeydiyyatdan Keç</button>
+
+    </form>
+
 {% endblock body %}
