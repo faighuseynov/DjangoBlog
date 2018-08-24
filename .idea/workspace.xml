@@ -6,6 +6,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoBlog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoBlog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
@@ -36,14 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/article/urls.py">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/article/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="2" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -51,7 +51,7 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
+            <state relative-caret-position="153">
               <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
@@ -60,20 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/djangoBlog/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="25" selection-start-line="25" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            <state relative-caret-position="121">
+              <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -81,25 +72,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/admin.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/register.html">
+      <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="279">
+              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/layout.html">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="18" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/djangoBlog/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="131" column="35" selection-start-line="131" selection-start-column="35" selection-end-line="131" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -107,22 +120,20 @@
       <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="187">
+              <caret line="11" column="88" selection-start-line="11" selection-start-column="88" selection-end-line="11" selection-end-column="88" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/apps.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/models.py">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/djangoBlog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="374">
+              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+              <folding>
+                <element signature="e#634#666#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,18 +159,18 @@
         <option value="$PROJECT_DIR$/article/static/style.css" />
         <option value="$PROJECT_DIR$/article/models.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/templates/layout.html" />
         <option value="$PROJECT_DIR$/templates/about.html" />
         <option value="$PROJECT_DIR$/templates/includes/navbar.html" />
         <option value="$PROJECT_DIR$/article/urls.py" />
         <option value="$PROJECT_DIR$/article/views.py" />
         <option value="$PROJECT_DIR$/djangoBlog/urls.py" />
-        <option value="$PROJECT_DIR$/templates/login.html" />
         <option value="$PROJECT_DIR$/user/urls.py" />
-        <option value="$PROJECT_DIR$/djangoBlog/settings.py" />
-        <option value="$PROJECT_DIR$/templates/register.html" />
+        <option value="$PROJECT_DIR$/templates/layout.html" />
         <option value="$PROJECT_DIR$/user/forms.py" />
         <option value="$PROJECT_DIR$/user/views.py" />
+        <option value="$PROJECT_DIR$/djangoBlog/settings.py" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/templates/register.html" />
       </list>
     </option>
   </component>
@@ -173,8 +184,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="676" />
-    <option name="width" value="517" />
+    <option name="x" value="684" />
+    <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -183,43 +194,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="djangoBlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djangoBlog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangoBlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djangoBlog" type="462c0819:PsiDirectoryNode" />
-              <item name="article" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangoBlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djangoBlog" type="462c0819:PsiDirectoryNode" />
-              <item name="article" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangoBlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djangoBlog" type="462c0819:PsiDirectoryNode" />
-              <item name="djangoBlog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangoBlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djangoBlog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangoBlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djangoBlog" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -231,6 +205,32 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="djangoBlog" type="cbb8eebc:String" user="djangoBlog" />
               <item name=".idea" type="cbb8eebc:String" user=".idea" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DjangoBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DjangoBlog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DjangoBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DjangoBlog" type="462c0819:PsiDirectoryNode" />
+              <item name="djangoBlog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DjangoBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DjangoBlog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DjangoBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DjangoBlog" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -265,11 +265,10 @@
           <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/djangoBlog.iml</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/article/views.py</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/db.sqlite3</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/settings.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/urls.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/register.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/user/forms.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/user/views.py</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -277,1277 +276,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/article/urls.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/css/autocomplete.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/css/base.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/css/changelists.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/css/dashboard.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/css/fonts.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/css/forms.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/css/login.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/css/responsive.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/css/responsive_rtl.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/css/rtl.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/css/vendor/select2/LICENSE-SELECT2.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/css/vendor/select2/select2.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/css/vendor/select2/select2.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/css/widgets.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/fonts/LICENSE.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/fonts/README.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/fonts/Roboto-Bold-webfont.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/fonts/Roboto-Light-webfont.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/fonts/Roboto-Regular-webfont.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/img/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/img/README.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/img/calendar-icons.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/img/gis/move_vertex_off.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/img/gis/move_vertex_on.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/img/icon-addlink.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/img/icon-alert.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/img/icon-calendar.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/img/icon-changelink.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/img/icon-clock.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/img/icon-deletelink.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/img/icon-no.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/img/icon-unknown-alt.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/img/icon-unknown.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/img/icon-yes.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/img/inline-delete.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/img/search.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/img/selector-icons.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/img/sorting-icons.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/img/tooltag-add.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/img/tooltag-arrowright.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/SelectBox.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/SelectFilter2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/actions.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/actions.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/admin/DateTimeShortcuts.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/admin/RelatedObjectLookups.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/autocomplete.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/calendar.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/cancel.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/change_form.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/collapse.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/collapse.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/core.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/inlines.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/inlines.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/jquery.init.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/popup_response.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/prepopulate.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/prepopulate.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/prepopulate_init.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/timeparse.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/urlify.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/jquery/jquery.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/jquery/jquery.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/LICENSE-SELECT2.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/ar.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/az.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/bg.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/cs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/da.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/de.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/el.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/en.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/es.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/et.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/eu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/fa.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/fi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/fr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/gl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/he.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/hi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/hr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/hu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/id.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/is.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/it.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/ja.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/km.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/ko.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/lt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/lv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/mk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/ms.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/nb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/nl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/pl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/pt-BR.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/pt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/ro.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/ru.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/sk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/sr-Cyrl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/sr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/sv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/th.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/tr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/uk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/vi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/zh-CN.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/i18n/zh-TW.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/select2.full.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/select2/select2.full.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/xregexp/xregexp.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/admin/js/vendor/xregexp/xregexp.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor-init.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/CHANGES.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/LICENSE.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/adapters/jquery.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/build-config.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/ckeditor.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/config.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/contents.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/af.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/ar.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/az.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/bg.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/bn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/bs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/cs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/cy.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/da.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/de-ch.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/de.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/el.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/en-au.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/en-ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/en-gb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/en.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/eo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/es-mx.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/es.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/et.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/eu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/fa.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/fi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/fo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/fr-ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/fr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/gl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/gu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/he.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/hi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/hr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/hu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/id.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/is.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/it.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/ja.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/ka.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/km.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/ko.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/ku.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/lt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/lv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/mk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/mn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/ms.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/nb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/nl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/no.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/oc.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/pl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/pt-br.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/pt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/ro.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/ru.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/si.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/sk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/sl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/sq.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/sr-latn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/sr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/sv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/th.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/tr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/tt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/ug.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/uk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/vi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/zh-cn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/lang/zh.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/af.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/az.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/da.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/de.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/el.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/en-au.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/en.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/es-mx.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/es.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/et.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/he.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/id.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/it.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/km.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/no.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/oc.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/si.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/th.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/about/dialogs/about.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/about/dialogs/logo_ckeditor.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/adobeair/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/ajax/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/autoembed/lang/cs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/autoembed/lang/de.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/autoembed/lang/en.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/autoembed/lang/it.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/autoembed/lang/ku.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/autoembed/lang/nb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/autoembed/lang/pl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/autoembed/lang/pt-br.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/autoembed/lang/tr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/autoembed/lang/zh.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/autoembed/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/autogrow/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/autolink/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/bbcode/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/clipboard/dialogs/paste.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/dialogs/codesnippet.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/icons/codesnippet.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/icons/hidpi/codesnippet.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/ar.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/bg.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/cs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/da.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/de.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/el.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/en-gb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/en.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/eo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/es.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/et.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/fa.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/fi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/fr-ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/fr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/gl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/he.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/hr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/hu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/it.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/ja.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/km.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/ko.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/ku.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/lt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/lv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/nb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/nl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/no.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/pl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/pt-br.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/pt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/ro.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/ru.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/sk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/sl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/sq.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/sv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/th.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/tr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/tt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/ug.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/uk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/vi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/zh-cn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lang/zh.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/CHANGES.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/README.ru.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/arta.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/ascetic.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-dune.dark.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-dune.light.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-forest.dark.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-forest.light.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-heath.dark.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-heath.light.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-lakeside.dark.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-lakeside.light.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-seaside.dark.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-seaside.light.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/brown_paper.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/brown_papersq.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/dark.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/default.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/docco.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/far.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/foundation.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/github.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/googlecode.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/idea.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/ir_black.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/magula.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/mono-blue.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai_sublime.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/obsidian.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/paraiso.dark.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/paraiso.light.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/pojoaque.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/pojoaque.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/railscasts.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/rainbow.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/school_book.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/school_book.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/solarized_dark.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/solarized_light.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/sunburst.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night-blue.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night-bright.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night-eighties.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/vs.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/xcode.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/zenburn.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippet/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/codesnippetgeshi/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/colordialog/dialogs/colordialog.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/colordialog/dialogs/colordialog.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/copyformatting/cursors/cursor-disabled.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/copyformatting/cursors/cursor.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/_translationstatus.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/ar.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/bg.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/cs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/cy.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/da.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/de.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/el.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/en-gb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/en.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/eo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/es.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/et.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/eu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/fa.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/fi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/fr-ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/fr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/gl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/gu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/he.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/hr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/hu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/id.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/it.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/ja.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/km.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/ko.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/ku.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/lt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/lv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/nb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/nl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/no.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/pl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/pt-br.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/pt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/ro.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/ru.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/si.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/sk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/sl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/sq.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/sv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/tr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/tt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/ug.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/uk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/vi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/zh-cn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/lang/zh.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/devtools/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/dialog/dialogDefinition.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/div/dialogs/div.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/divarea/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/dialogs/docprops.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/icons/docprops-rtl.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/icons/docprops.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/icons/hidpi/docprops-rtl.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/icons/hidpi/docprops.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/af.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/ar.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/bg.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/bn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/bs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/cs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/cy.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/da.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/de.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/el.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/en-au.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/en-ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/en-gb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/en.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/eo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/es.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/et.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/eu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/fa.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/fi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/fo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/fr-ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/fr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/gl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/gu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/he.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/hi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/hr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/hu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/id.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/is.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/it.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/ja.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/ka.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/km.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/ko.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/ku.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/lt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/lv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/mk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/mn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/ms.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/nb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/nl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/no.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/pl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/pt-br.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/pt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/ro.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/ru.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/si.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/sk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/sl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/sq.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/sr-latn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/sr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/sv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/th.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/tr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/tt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/ug.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/uk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/vi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/zh-cn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/lang/zh.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/docprops/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/embed/icons/embed.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/embed/icons/hidpi/embed.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/embed/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/embedbase/dialogs/embedbase.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/embedbase/lang/cs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/embedbase/lang/da.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/embedbase/lang/de.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/embedbase/lang/en.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/embedbase/lang/eo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/embedbase/lang/fr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/embedbase/lang/gl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/embedbase/lang/it.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/embedbase/lang/ko.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/embedbase/lang/ku.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/embedbase/lang/nb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/embedbase/lang/nl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/embedbase/lang/pl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/embedbase/lang/pt-br.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/embedbase/lang/ru.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/embedbase/lang/sv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/embedbase/lang/tr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/embedbase/lang/zh-cn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/embedbase/lang/zh.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/embedbase/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/embedsemantic/icons/embedsemantic.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/embedsemantic/icons/hidpi/embedsemantic.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/embedsemantic/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/filetools/lang/cs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/filetools/lang/da.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/filetools/lang/de.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/filetools/lang/en.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/filetools/lang/eo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/filetools/lang/fr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/filetools/lang/gl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/filetools/lang/it.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/filetools/lang/ko.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/filetools/lang/ku.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/filetools/lang/nb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/filetools/lang/nl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/filetools/lang/pl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/filetools/lang/pt-br.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/filetools/lang/ru.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/filetools/lang/sv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/filetools/lang/tr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/filetools/lang/zh-cn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/filetools/lang/zh.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/filetools/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/find/dialogs/find.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/flash/dialogs/flash.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/flash/images/placeholder.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/forms/dialogs/button.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/forms/dialogs/checkbox.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/forms/dialogs/form.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/forms/dialogs/hiddenfield.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/forms/dialogs/radio.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/forms/dialogs/select.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/forms/dialogs/textarea.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/forms/dialogs/textfield.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/forms/images/hiddenfield.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/icons.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/icons_hidpi.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/iframe/dialogs/iframe.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/iframe/images/placeholder.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/iframedialog/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image/dialogs/image.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image/images/noimage.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/dialogs/image2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/icons/hidpi/image.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/icons/image.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/af.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/ar.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/bg.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/bn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/bs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/cs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/cy.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/da.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/de.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/el.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/en-au.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/en-ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/en-gb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/en.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/eo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/es.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/et.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/eu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/fa.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/fi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/fo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/fr-ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/fr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/gl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/gu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/he.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/hi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/hr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/hu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/id.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/is.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/it.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/ja.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/ka.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/km.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/ko.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/ku.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/lt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/lv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/mk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/mn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/ms.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/nb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/nl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/no.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/pl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/pt-br.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/pt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/ro.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/ru.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/si.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/sk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/sl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/sq.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/sr-latn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/sr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/sv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/th.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/tr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/tt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/ug.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/uk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/vi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/zh-cn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/lang/zh.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/image2/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/icons/hidpi/language.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/icons/language.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/ar.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/bg.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/cs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/cy.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/da.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/de.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/el.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/en-gb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/en.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/eo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/es.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/fa.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/fi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/fo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/fr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/gl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/he.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/hr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/hu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/it.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/ja.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/km.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/ko.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/ku.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/nb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/nl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/no.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/pl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/pt-br.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/pt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/ru.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/sk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/sl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/sq.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/sv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/tr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/tt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/uk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/vi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/zh-cn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/lang/zh.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/language/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/lineutils/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/link/dialogs/anchor.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/link/dialogs/link.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/link/images/anchor.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/link/images/hidpi/anchor.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/liststyle/dialogs/liststyle.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/magicline/images/hidpi/icon.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/magicline/images/icon-rtl.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/magicline/images/icon.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/dialogs/mathjax.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/icons/hidpi/mathjax.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/icons/mathjax.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/images/loader.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/af.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/ar.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/bg.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/cs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/cy.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/da.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/de.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/el.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/en-gb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/en.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/eo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/es.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/fa.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/fi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/fr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/gl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/he.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/hr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/hu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/it.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/ja.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/km.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/ko.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/ku.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/lt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/nb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/nl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/no.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/pl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/pt-br.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/pt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/ro.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/ru.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/sk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/sl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/sq.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/sv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/tr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/tt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/uk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/vi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/zh-cn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/lang/zh.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/mathjax/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/menubutton/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/notification/lang/cs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/notification/lang/da.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/notification/lang/de.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/notification/lang/en.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/notification/lang/eo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/notification/lang/fr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/notification/lang/gl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/notification/lang/it.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/notification/lang/ko.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/notification/lang/ku.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/notification/lang/nb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/notification/lang/nl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/notification/lang/pl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/notification/lang/pt-br.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/notification/lang/ru.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/notification/lang/sv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/notification/lang/tr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/notification/lang/zh-cn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/notification/lang/zh.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/notification/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/notificationaggregator/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/pagebreak/images/pagebreak.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/pastefromword/filter/default.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/dialogs/placeholder.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/icons/hidpi/placeholder.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/icons/placeholder.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/af.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/ar.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/bg.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/cs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/cy.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/da.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/de.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/el.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/en-gb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/en.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/eo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/es.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/et.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/eu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/fa.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/fi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/fr-ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/fr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/gl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/he.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/hr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/hu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/id.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/it.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/ja.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/km.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/ko.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/ku.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/lv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/nb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/nl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/no.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/pl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/pt-br.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/pt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/ru.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/si.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/sk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/sl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/sq.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/sv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/th.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/tr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/tt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/ug.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/uk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/vi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/zh-cn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/lang/zh.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/placeholder/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/preview/preview.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/scayt/CHANGELOG.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/scayt/LICENSE.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/scayt/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/scayt/dialogs/options.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/scayt/dialogs/toolbar.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sharedspace/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/showblocks/images/block_address.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/showblocks/images/block_blockquote.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/showblocks/images/block_div.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/showblocks/images/block_h1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/showblocks/images/block_h2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/showblocks/images/block_h3.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/showblocks/images/block_h4.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/showblocks/images/block_h5.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/showblocks/images/block_h6.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/showblocks/images/block_p.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/showblocks/images/block_pre.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/dialogs/smiley.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/angel_smile.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/angel_smile.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/angry_smile.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/angry_smile.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/broken_heart.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/broken_heart.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/confused_smile.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/confused_smile.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/cry_smile.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/cry_smile.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/devil_smile.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/devil_smile.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/embaressed_smile.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/embarrassed_smile.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/embarrassed_smile.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/envelope.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/envelope.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/heart.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/heart.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/kiss.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/kiss.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/lightbulb.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/lightbulb.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/omg_smile.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/omg_smile.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/regular_smile.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/regular_smile.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/sad_smile.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/sad_smile.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/shades_smile.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/shades_smile.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/teeth_smile.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/teeth_smile.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/thumbs_down.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/thumbs_down.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/thumbs_up.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/thumbs_up.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/tongue_smile.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/tongue_smile.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/tounge_smile.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/wink_smile.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/smiley/images/wink_smile.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/dialogs/sourcedialog.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/icons/hidpi/sourcedialog-rtl.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/icons/hidpi/sourcedialog.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/icons/sourcedialog-rtl.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/icons/sourcedialog.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/af.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/ar.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/bg.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/bn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/bs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/cs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/cy.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/da.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/de.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/el.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/en-au.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/en-ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/en-gb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/en.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/eo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/es.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/et.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/eu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/fa.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/fi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/fo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/fr-ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/fr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/gl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/gu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/he.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/hi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/hr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/hu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/id.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/is.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/it.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/ja.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/ka.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/km.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/ko.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/ku.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/lt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/lv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/mn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/ms.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/nb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/nl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/no.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/pl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/pt-br.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/pt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/ro.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/ru.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/si.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/sk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/sl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/sq.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/sr-latn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/sr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/sv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/th.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/tr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/tt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/ug.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/uk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/vi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/zh-cn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/lang/zh.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/sourcedialog/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/af.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/ar.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/az.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/bg.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/cs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/cy.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/da.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/de.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/el.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/en-au.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/en-ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/en.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/eo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/es-mx.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/es.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/et.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/eu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/fa.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/fi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/fr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/gl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/he.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/hr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/hu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/id.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/it.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/ja.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/km.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/ko.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/ku.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/lt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/lv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/nb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/nl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/no.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/oc.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/pl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/pt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/ro.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/ru.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/si.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/sk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/sl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/sq.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/sv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/th.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/tr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/tt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/ug.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/uk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/vi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/zh.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/specialchar/dialogs/specialchar.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/stylesheetparser/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/table/dialogs/table.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/tableresize/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/tabletools/dialogs/tableCell.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/templates/dialogs/templates.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/templates/dialogs/templates.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/templates/templates/default.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/templates/templates/images/template1.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/templates/templates/images/template2.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/templates/templates/images/template3.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/dialogs/uicolor.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/icons/hidpi/uicolor.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/icons/uicolor.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/_translationstatus.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/af.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/ar.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/bg.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/cs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/cy.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/da.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/de.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/el.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/en-gb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/en.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/eo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/es.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/et.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/eu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/fa.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/fi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/fr-ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/fr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/gl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/he.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/hr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/hu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/id.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/it.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/ja.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/km.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/ko.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/ku.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/lv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/mk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/nb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/nl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/no.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/pl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/pt-br.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/pt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/ru.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/si.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/sk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/sl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/sq.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/sv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/tr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/tt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/ug.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/uk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/vi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/zh-cn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/lang/zh.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/yui/assets/hue_bg.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/yui/assets/hue_thumb.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/yui/assets/picker_mask.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/yui/assets/picker_thumb.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/yui/assets/yui.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uicolor/yui/yui.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uploadimage/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uploadwidget/lang/cs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uploadwidget/lang/da.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uploadwidget/lang/de.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uploadwidget/lang/en.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uploadwidget/lang/eo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uploadwidget/lang/fr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uploadwidget/lang/gl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uploadwidget/lang/hu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uploadwidget/lang/it.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uploadwidget/lang/ko.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uploadwidget/lang/ku.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uploadwidget/lang/nb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uploadwidget/lang/nl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uploadwidget/lang/pl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uploadwidget/lang/pt-br.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uploadwidget/lang/ru.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uploadwidget/lang/sv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uploadwidget/lang/tr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uploadwidget/lang/zh-cn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uploadwidget/lang/zh.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/uploadwidget/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/images/handle.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/af.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/ar.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/bg.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/ca.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/cs.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/cy.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/da.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/de.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/el.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/en-gb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/en.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/eo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/es.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/fa.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/fi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/fr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/gl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/he.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/hr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/hu.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/it.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/ja.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/km.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/ko.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/ku.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/lv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/nb.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/nl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/no.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/pl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/pt-br.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/pt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/ru.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/sk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/sl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/sq.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/sv.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/tr.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/tt.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/uk.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/vi.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/zh-cn.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/lang/zh.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/widget/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/wsc/LICENSE.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/wsc/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/wsc/dialogs/ciframe.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/wsc/dialogs/tmpFrameset.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/wsc/dialogs/wsc.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/wsc/dialogs/wsc.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/wsc/dialogs/wsc_ie.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/plugins/xml/plugin.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono-lisa/dialog.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono-lisa/dialog_ie.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono-lisa/dialog_ie8.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono-lisa/dialog_iequirks.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono-lisa/editor.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono-lisa/editor_gecko.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono-lisa/editor_ie.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono-lisa/editor_ie8.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono-lisa/editor_iequirks.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono-lisa/icons.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono-lisa/icons_hidpi.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono-lisa/images/arrow.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono-lisa/images/close.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono-lisa/images/hidpi/close.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono-lisa/images/hidpi/lock-open.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono-lisa/images/hidpi/lock.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono-lisa/images/hidpi/refresh.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono-lisa/images/lock-open.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono-lisa/images/lock.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono-lisa/images/refresh.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono-lisa/images/spinner.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono-lisa/readme.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono/dialog.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono/dialog_ie.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono/dialog_ie7.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono/dialog_ie8.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono/dialog_iequirks.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono/editor.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono/editor_gecko.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono/editor_ie.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono/editor_ie7.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono/editor_ie8.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono/editor_iequirks.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono/icons.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono/icons_hidpi.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono/images/arrow.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono/images/close.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono/images/hidpi/close.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono/images/hidpi/lock-open.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono/images/hidpi/lock.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono/images/hidpi/refresh.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono/images/lock-open.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono/images/lock.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono/images/refresh.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono/images/spinner.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/skins/moono/readme.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/ckeditor/styles.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/file-icons/doc.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/file-icons/file.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/file-icons/pdf.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/file-icons/ppt.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/file-icons/swf.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/file-icons/txt.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/file-icons/xls.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/galleriffic/css/basic.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/galleriffic/css/black.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/galleriffic/css/caption.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/galleriffic/css/galleriffic-1.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/galleriffic/css/galleriffic-2.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/galleriffic/css/galleriffic-3.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/galleriffic/css/galleriffic-4.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/galleriffic/css/galleriffic-5.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/galleriffic/css/jush.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/galleriffic/css/loader.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/galleriffic/css/loaderWhite.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/galleriffic/css/nextPageArrow.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/galleriffic/css/nextPageArrowWhite.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/galleriffic/css/prevPageArrow.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/galleriffic/css/prevPageArrowWhite.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/galleriffic/css/white.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/galleriffic/js/jquery-1.3.2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/galleriffic/js/jquery.galleriffic.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/galleriffic/js/jquery.history.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/galleriffic/js/jquery.opacityrollover.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/djangoBlog/static/ckeditor/galleriffic/js/jush.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/about.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/includes/navbar.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/layout.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/login.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/register.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/user/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/user/admin.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/user/apps.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/user/forms.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/user/migrations/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/user/models.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/user/tests.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/user/urls.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/user/views.py</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -1690,49 +418,42 @@
       <option name="project" value="LOCAL" />
       <updated>1534771482445</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="additions">
+      <created>1534855209719</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1534855209719</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.26623377" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33227345" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12371889" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33279222" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12708019" />
+      <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="R Graphics" order="6" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12556732" />
-      <window_info anchor="right" id="SciView" order="7" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="16" />
-      <window_info anchor="bottom" id="Run" order="4" />
-      <window_info anchor="right" id="R Packages" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="17" show_stripe_button="false" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="R Graphics" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="18" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="19" visible="true" weight="0.33279222" />
-      <window_info anchor="bottom" id="Python Console" order="20" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1747,8 +468,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="additions" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/contrib/admin/__init__.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/contrib/admin/decorators.py" />
+    <entry file="file://$PROJECT_DIR$/djangoBlog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#634#666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/contrib/admin/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/contrib/admin/decorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/article/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1760,6 +507,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="e#634#666#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1795,7 +545,13 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/djangoBlog/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#634#666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/article/models.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1804,8 +560,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/contrib/admin/__init__.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/contrib/admin/decorators.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/contrib/admin/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/contrib/admin/decorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/article/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1817,6 +583,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="e#634#666#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1885,11 +654,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/article/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -1897,10 +663,8 @@
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/contrib/admin/decorators.py" />
     <entry file="file://$PROJECT_DIR$/article/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1942,23 +706,6 @@
     <entry file="file://$PROJECT_DIR$/user/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/views.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangoBlog/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/article/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1969,23 +716,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/djangoBlog/urls.py">
+    <entry file="file://$PROJECT_DIR$/article/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="25" selection-start-line="25" selection-end-line="26" />
+        <state relative-caret-position="221">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layout.html">
+    <entry file="file://$PROJECT_DIR$/djangoBlog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        <state relative-caret-position="374">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <folding>
+            <element signature="e#634#666#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
+        <state relative-caret-position="153">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
@@ -1993,40 +743,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/register.html">
+    <entry file="file://$PROJECT_DIR$/templates/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="279">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        <state relative-caret-position="121">
+          <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="88" selection-start-line="11" selection-start-column="88" selection-end-line="11" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangoBlog/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="131" column="35" selection-start-line="131" selection-start-column="35" selection-end-line="131" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>

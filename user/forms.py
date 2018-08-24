@@ -1,6 +1,12 @@
 from django import forms
 
 
+class LoginForm(forms.Form):
+    username = forms.CharField(label="İstifadəçi adı")
+    password = forms.CharField(label="Şifrə", widget=forms.PasswordInput)
+
+
+
 class RegisterForm(forms.Form):
     username = forms.CharField(max_length=50, label="İstifadəçi adı")
     password = forms.CharField(max_length=50, label="Şifrə", widget=forms.PasswordInput)
@@ -13,4 +19,3 @@ class RegisterForm(forms.Form):
 
         if password and confirm and password!=confirm:
             raise forms.ValidationError("Şifrələr uyğun deyil!!!")
-        

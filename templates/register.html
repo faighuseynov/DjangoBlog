@@ -2,15 +2,22 @@
 
 
 {% block body %}
+{% load crispy_forms_tags %}
 
-    <h3>Qeydiyyatdan keç</h3>
+    <div class="col-md-6 offset-md-3">
+    <h3>Qeydiyyatdan keç </h3>
+    <hr>
 
     <form method="post">
+
     {% csrf_token %}
-    {{ form.as_p }}
+    {{ form|crispy}}
         <br>
-    <button type="submit" class="btn btn-danger">Qeydiyyatdan Keç</button>
+    <button type="submit" class="btn btn-danger">Qeydiyyatdan keç</button>
+
 
     </form>
+
+    </div>
 
 {% endblock body %}
