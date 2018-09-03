@@ -1,0 +1,15 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+article/__pycache__/
+article/migrations/__pycache__/
+djangoBlog/__pycache__/
+user/__pycache__/
+user/migrations/__pycache__/
+workspace.xml
