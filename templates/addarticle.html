@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+
+{% load crispy_forms_tags %}
+
+    <div class="col-md-6 offset-md-3">
+    <h3>Məqalə əlavə et</h3>
+    <hr>
+
+    <form method="post">
+
+    {% csrf_token %}
+    {{ form|crispy}}
+        <br>
+    <button type="submit" class="btn btn-danger">Yadda saxla</button>
+
+
+    </form>
+
+    </div>
+
+{% endblock body %}

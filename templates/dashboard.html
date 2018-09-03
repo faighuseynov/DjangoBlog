@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+
+{% block body %}
+
+<h3>Kontrol Paneli</h3>
+<small>Hoşgeldin, {{ request.user.username }}</small>
+<hr>
+
+<a href="/article/addarticle" class = "btn btn-danger">Makale Ekle</a>
+
+{% endblock body %}
