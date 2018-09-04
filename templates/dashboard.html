@@ -6,7 +6,53 @@
 <h3>Kontrol Paneli</h3>
 <small>Hoşgeldin, {{ request.user.username }}</small>
 <hr>
-
 <a href="/article/addarticle" class = "btn btn-danger">Makale Ekle</a>
+    <hr>
+  {% if articles %}
+
+      <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">id</th>
+      <th scope="col">Başlıq</th>
+      <th scope="col">Kontent</th>
+      <th scope="col">Tarix</th>
+      <th scope="col">Yenilə</th>
+      <th scope="col">Sil</th>
+
+
+    </tr>
+  </thead>
+  <tbody>
+
+   {% for article in articles %}
+
+       <tr>
+      <th scope="row">{{ article.id }}</th>
+      <td><a href="/article/article/{{ article.id }}">{{ article.title }}</a></td>
+      <td>{{ article.content }}</td>
+      <td>{{ article.created_date }}</td>
+      <td><a class="btn btn-danger" href="/article/update/{{ article.id }}">Yenilə</a></td>
+      <td><a class="btn btn-danger" href="/article/delete/{{ article.id }}">Sil</a></td>
+    </tr>
+
+
+   {% endfor %}
+
+
+
+  </tbody>
+</table>
+
+      {% else %}
+
+      <div class="alert alert-danger">
+
+      Məqaləniz yoxdur
+
+      </div>
+
+  {% endif %}
+
 
 {% endblock body %}
