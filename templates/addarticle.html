@@ -9,9 +9,10 @@
     <h3>Məqalə əlavə et</h3>
     <hr>
 
-    <form method="post">
+    <form method="post" enctype="multipart/form-data">
 
     {% csrf_token %}
+    {{ form.media }}
     {{ form|crispy}}
         <br>
     <button type="submit" class="btn btn-danger">Yadda saxla</button>

@@ -1,4 +1,4 @@
-from django.shortcuts import render,HttpResponse, redirect
+from django.shortcuts import render,HttpResponse, redirect, get_object_or_404
 from .forms import ArticleForm
 from django.contrib import messages
 from .models import Article
@@ -29,7 +29,7 @@ def dashboard(request):
 
 
 def addArticle(request):
-    form = ArticleForm(request.POST or None)
+    form = ArticleForm(request.POST or None, request.FILES or None)
 
     if form.is_valid():
         article = form.save(commit=False)
@@ -41,5 +41,6 @@ def addArticle(request):
     return render(request, "addarticle.html", {"form": form})
 
 def detail(request, id):
-    article = Article.objects.filter(id = id).first()
+   # article = Article.objects.filter(id = id).first()
+    article = get_object_or_404(Article, id = id)
     return render(request, "detail.html", {"article": article})
